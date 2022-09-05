@@ -9,7 +9,7 @@ namespace Caracter
             string[] frase;
             string maiorPalvra = "";
 
-            for (; ; )
+            while (true)
             {
                 frase = Console.ReadLine().Split(' ');
                 if (frase[0] == "0")
